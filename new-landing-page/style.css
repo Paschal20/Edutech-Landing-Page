@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.body {
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+}
+.logoHolder {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: poppins;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+.navHolder {
+  width: 500px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.nav {
+  font-family: poppins;
+}
+.nav:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all 5s;
+}
+.signInButton {
+  height: 50px;
+  width: 70px;
+  border-radius: 6px;
+  background-color: white;
+  border: none;
+}
+.signInButton:hover {
+  cursor: pointer;
+  background-color: rgb(247, 247, 247);
+  transition: all 300ms;
+}
+.getStartedButton {
+  height: 40px;
+  width: 80px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+.getStartedButton:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.76);
+  transition: all 50ms;
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftHero {
+  width: 45%;
+  height: 400px;
+  background-color: lightblue;
+  margin-left: 30px;
+}
+.rightHero {
+  width: 45%;
+  height: 400px;
+  background-color: lightgreen;
+  margin-right: 30px;
+}
