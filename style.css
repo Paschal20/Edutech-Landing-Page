@@ -1,0 +1,719 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+.body {
+  width: 100%;
+  background-color: rgba(211, 211, 211, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  background-color: aqua;
+}
+.logoHolder {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+  margin-left: 10px;
+  font-size: 24px;
+  font-family: Poppins;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.navHolder {
+  width: 500px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.nav {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+}
+.nav:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transition: all 5s;
+}
+.signInButton {
+  height: 50px;
+  width: 70px;
+  border-radius: 6px;
+  background-color: white;
+  border: none;
+}
+.signInButton:hover {
+  cursor: pointer;
+  background-color: rgb(247, 247, 247);
+  transition: all 300ms;
+}
+.getStartedButton {
+  height: 40px;
+  width: 103px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+.getStartedButton:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.76);
+  transition: all 50ms;
+}
+.hero {
+  width: 100%;
+  height: 500px;
+  background-color: #fef3f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0%;
+}
+.leftHero {
+  width: 45%;
+  height: 400px;
+
+  margin-left: 30px;
+}
+.rightHero {
+  width: 45%;
+  height: 400px;
+  margin-right: 30px;
+}
+.heroTitle {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: poppins;
+  line-height: 60px;
+  width: 700px;
+}
+.heroDescription {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(113, 113, 122);
+  line-height: normal;
+  font-family: poppins;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.startLearningButton {
+  height: 50px;
+  width: 220px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(250, 250, 250);
+  font-size: 14px;
+  line-height: 20px;
+}
+.startLearningButton:hover {
+  cursor: pointer;
+  background-color: #2f2e2f;
+  transition: all 50ms;
+}
+.watchDemoButton {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 20px;
+  width: 170px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+}
+
+.rating {
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(113, 113, 122);
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.rightHero img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.features {
+  width: 100%;
+  height: 300px;
+  background-color: #f9f9fa;
+  display: flex;
+  margin-top: 0%;
+}
+.insideFeatures {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+}
+
+.featureDetails {
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.featureTitle {
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(113, 113, 122);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.belowFeatures {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 0px;
+}
+
+.toSucceed {
+  text-align: center;
+  background-color: #fff;
+  font-family: poppins;
+  margin-top: 0px;
+}
+.belowFeaturesSubtitle {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.belowFeaturesTitle {
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+  font-size: 44px;
+  line-height: 48px;
+  font-family: poppins;
+  margin-bottom: 10px;
+}
+.belowFeaturesDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-family: poppins;
+  color: rgb(113, 113, 122);
+  font-size: 18px;
+  line-height: 33px;
+  width: 870px;
+}
+.actionCardHolder {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.actionCard {
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-color: rgb(212, 211, 211);
+  border-style: solid;
+  border-width: 0.3px;
+  font-family: poppins;
+}
+
+.bigText {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.courses {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 0px;
+  background-color: #f9f9fa;
+}
+
+.courseCardHolder {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.courseCard {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-style: solid;
+  border-color: rgb(209, 209, 209);
+  border-width: 0.3px;
+}
+
+.levelAndrating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+  font-family: poppins;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: -1px;
+}
+
+.level {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: rgb(250, 250, 250);
+  background-color: #18181b;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.rating {
+  font-size: 13px;
+  color: black;
+}
+
+.stackName {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(9, 9, 11);
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.stackDescription {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(113, 113, 122);
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  width: 270px;
+}
+
+.timeAndAmount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+  font-family: poppins;
+  font-style: normal;
+  margin-left: -1px;
+}
+.time {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(105, 105, 105);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.amount {
+  font-weight: 400;
+}
+.journeyImageHolder {
+  width: 300px;
+  height: 170px;
+  background-color: #eaeaea;
+  margin: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+.studentName {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(9, 9, 11);
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.studentStack {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(113, 113, 122);
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.studentFeedback {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(113, 113, 122);
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 5px;
+  width: 260px;
+}
+.viewAllCoursesButton {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 20px;
+  padding: 7px 30px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgb(180, 175, 175);
+  background-color: white;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.viewAllCoursesButton:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: all 50ms;
+}
+
+.studentCardHolder {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.studentCard {
+  height: 250px;
+  width: 300px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(209, 209, 209);
+  border-width: 0.2px;
+}
+
+.studentMain {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 0px;
+}
+.pricingMain {
+  width: 100%;
+  height: 650px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 0px;
+}
+.freeCard {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: rgb(209, 209, 209);
+  border-width: 0.2px;
+}
+.proCard p,
+.enterpriseCard p,
+.freeCard p,
+div {
+  margin-left: 20px;
+}
+
+.planType {
+  margin-top: 30px;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  color: rgb(9, 9, 11);
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+.planDescription {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(113, 113, 122);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.planPrice {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  color: rgb(9, 9, 11);
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.planPrice span {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.planFeatures {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(9, 9, 11);
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.planFeatures img {
+  margin-right: 10px;
+  width: 15px;
+}
+
+.planStartButton {
+  width: 260px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  border-color: rgb(180, 175, 175);
+  font-family: poppins;
+  font-weight: 500;
+  color: black;
+  margin-top: 10px;
+}
+
+.planStartButton:hover {
+  cursor: pointer;
+  background-color: rgb(231, 231, 231);
+  transition: all 50ms;
+}
+.proCard {
+  height: 330px;
+  width: 300px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.proStartButton {
+  width: 260px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+  border-color: rgb(180, 175, 175);
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.proStartButton:hover {
+  cursor: pointer;
+  background-color: #2f2e2f;
+  transition: all 50ms;
+}
+.enterpriseCard {
+  height: 330px;
+  width: 300px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-color: rgb(209, 209, 209);
+  border-width: 0.2px;
+}
+.emailMain {
+  width: 100%;
+  height: 450px;
+  background-color: #18181b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.emailMainTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-family: poppins;
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.emailMainDescription {
+  font-style: normal;
+  font-weight: 400;
+  font-family: poppins;
+  color: #cdcdcd;
+  font-size: 18px;
+  line-height: 33px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+.inputAndButtonHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emailInput {
+  width: 270px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  font-family: poppins;
+}
+
+.emailButton {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  font-family: poppins;
+  font-weight: 500;
+  color: black;
+  margin-left: 10px;
+}
+.startPlan {
+  color: white;
+  font-family: poppins;
+  font-size: 14px;
+  margin-top: 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 20px;
+}
+.rights {
+  color: grey;
+  font-family: poppins;
+}
